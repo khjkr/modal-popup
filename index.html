@@ -5,15 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <title>Modal Popup</title>
-  <script src="main.js"></script>
+  <script src="main.js" defer></script>
 </head>
 <body>
-  <button>Open Modal</button>
-  <div class="modal">
+  <button id="open">Open Modal</button>
+  <div class="modal hidden">
     <div class="modal__overlay"></div>
     <div class="modal__content">
-      <h1>This is modal</h1>
-      <button>❌</button>
+      <h1>Modal</h1>
+      <button id="close">❌</button>
     </div>
   </div>
 </body>
